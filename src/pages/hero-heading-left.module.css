@@ -1,0 +1,94 @@
+.h1TitleCopyGoes,
+.pLoremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.pLoremIpsumDolor {
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--color-gray);
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.getStarted {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.button {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.actions,
+.column {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actions {
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.column {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.imageIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.column1 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column1,
+.container,
+.heroHeadingLeft {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  width: 1200px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.heroHeadingLeft {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-45xl) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
