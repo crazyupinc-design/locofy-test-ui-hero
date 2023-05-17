@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
-import styles from "./hero-heading-left-modified.module.css";
-const HeroHeadingLeftModified: FunctionComponent = () => {
+import styles from "./hero-heading-left.module.css";
+const HeroHeadingLeft: FunctionComponent = () => {
   return (
-    <div className={styles.heroHeadingLeftModified}>
+    <div className={styles.heroHeadingLeft}>
       <article className={styles.container}>
         <div className={styles.column}>
           <div className={styles.content}>
@@ -22,10 +22,14 @@ const HeroHeadingLeftModified: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <img className={styles.columnIcon} alt="" src="/column@2x.png" />
+        <div className={styles.column1}>
+          <div className={styles.imageWrapper}>
+            <img className={styles.imageIcon} alt="" src="/image@2x.png" />
+          </div>
+        </div>
       </article>
     </div>
   );
 };
 
-export default HeroHeadingLeftModified;
+export default HeroHeadingLeft;
