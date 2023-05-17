@@ -1,14 +1,14 @@
 import { FunctionComponent } from "react";
-import styles from "./hero-heading-left.module.css";
-const HeroHeadingLeft: FunctionComponent = () => {
+import styles from "./hero-heading-left-modified.module.css";
+const HeroHeadingLeftModified: FunctionComponent = () => {
   return (
-    <div className={styles.heroHeadingLeft}>
-      <div className={styles.container}>
+    <div className={styles.heroHeadingLeftModified}>
+      <article className={styles.container}>
         <div className={styles.column}>
           <div className={styles.content}>
-            <b className={styles.h1TitleCopyGoes}>
+            <h1 className={styles.h1TitleCopyGoes}>
               Title Copy Goes Here Be Awesome
-            </b>
+            </h1>
             <div className={styles.pLoremIpsumDolor}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
@@ -22,14 +22,10 @@ const HeroHeadingLeft: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.column1}>
-          <div className={styles.imageWrapper}>
-            <img className={styles.imageIcon} alt="" src="/image@2x.png" />
-          </div>
-        </div>
-      </div>
+        <img className={styles.columnIcon} alt="" src="/column@2x.png" />
+      </article>
     </div>
   );
 };
 
-export default HeroHeadingLeft;
+export default HeroHeadingLeftModified;
